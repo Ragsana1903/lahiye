@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Myeongjo&display=swap');
+
+body {
+    font-family: "Nanum Myeongjo", serif;
+}
+
+
+div img {
+
+    max-width: 250px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+    background-color: darkslategray
+}
+
+.header ul {
+    list-style-type: none;
+    margin-left: 485px;
+    padding-bottom: 10px;
+    overflow: hidden;
+
+}
+
+.header ul li {
+    float: left;
+}
+
+.header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-line: none;
+}
+
+/*HOVER ZAMANI ALTDAN XETT DUSSUN*/
+
+.box1 {
+    display: flex;
+
+
+}
+
+.box1 .left1 {
+    background-color: whitesmoke;
+    display: block;
+    max-width: 50%;
+    height: 700px;
+    padding-top: 10px;
+}
+
+.box1 .left1 .text1 {
+    align-items: center;
+    margin: 12%;
+    padding: 7%;
+    font-size: x-large;
+    color: darkslategrey;
+
+}
+
+.box1 .left1 .text1 button {
+    border-radius: 15px;
+    height: 45px;
+    width: 200px;
+    background-color: darkslategray;
+    color: aliceblue;
+    border-color: darkslategray;
+
+}
+
+
+.right {
+    background-color: rgb(211, 211, 211);
+    display: block;
+    max-width: 50%;
+    height: 710px;
+    flex: 1;
+    border-left: 1px solid black;
+
+}
+
+.right .img {
+
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+
+.right .img img {
+    height: 400px;
+    width: 700px;
+}
+
+
+.box2 {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategrey;
+
+}
+
+.box2 div {
+    display: block;
+    width: 920px;
+    height: 100px;
+    margin-left: 20%;
+
+
+}
+
+.box2 div h2 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25px;
+    color: rgb(236, 234, 234);
+}
+
+.box3 {
+    display: flex;
+    /* border-bottom: solid black 1px; */
+}
+
+.box3 .left {
+
+    width: 33.3%;
+    height: 500px;
+}
+
+.box3 .left div {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding-top: 180px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+.box3 .mid {
+    width: 33.3%;
+    height: 500px;
+    flex: 1;
+}
+
+.box3 .mid div {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding-top: 180px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+.box3 .right1 {
+    width: 33.3%;
+    height: 500px;
+    flex: 1;
+}
+
+.box3 .right1 div {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding-top: 180px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+.box4 {
+    background-color: gainsboro;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.box4 div {
+    display: flex;
+    margin-top: 43px;
+}
+
+.box4 .p1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: -59px;
+    padding-left: 260px;
+    padding-right: 195px;
+}
+
+.box4 div .img1 {
+    /* background-color: antiquewhite; */
+    width: 50%;
+    height: 200px;
+
+    /* flex: 1; */
+}
+
+.box4 div .img1 img {
+    width: 900px;
+    height: 400px;
+}
+
+.box4 div .list {
+    /* background-color: burlywood; */
+    width: 50%;
+    flex: 1;
+    padding-bottom: 46px;
+}
+
+.box4 div .list div .text2 {
+    margin-left: 99px;
+    margin-right: 108px;
+    margin-bottom: 11px;
+    margin-top: 140px;
+    list-style-type: circle;
+    font-size: 20px;
+    padding-right: 46px;
+    /* margin-right: 150px; */
+}
+
+.box4 div .list div .sound {
+    /* width: 137%;
+    height: 12%;
+    text-align: center; */
+    margin-bottom: -111px;
+    padding-left: 136px;
+    font-size: 34px;
+}
+
+.box4 div .list div {
+    display: block;
+}
+
+.box5 {
+    display: flex;
+}
+
+.l {
+    background-color: rgb(212, 215, 242);
+    display: block;
+    max-width: 50%;
+    height: 710px;
+    flex: 1;
+    border-right: 1px solid black;
+
+}
+
+.l .image {
+
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+
+.l .image img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.box5 .r {
+    background-color: whitesmoke;
+    display: block;
+    max-width: 50%;
+    height: 700px;
+    padding-top: 10px;
+}
+
+.box5 .r .text3 {
+    align-items: center;
+    margin: 12%;
+    padding: 7%;
+    font-size: 22px;
+    color: darkslategrey;
+
+}
+
+.box6 {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+}
+
+
+.box7 {
+    text-align: center;
+    background-color: rgb(223, 226, 232);
+
+}
+h4{
+    color:green
+}
+
+.box7 .umumi {
+    display: flex;
+    font-size: 22px;
+}
+
+.box71 .package {
+    text-align: center;
+    padding-left: 85px;
+    padding-right: 84px;
+
+
+}
+
+/* .box72 {
+    background-color: azure;
+} */
+.box72 .website{
+    padding-left: 85px;
+    padding-right: 84px;
+    text-align: center;
+
+}
+
+.box73 .web-design {
+    /* margin-bottom: 960px; */
+    padding-left: 85px;
+    padding-right: 84px;
+    text-align: center;
+
+}
+
+.button,
+.box71 {
+    overflow: hidden;
+}
+
+.umumi {
+    height: 458px;
+    overflow: hidden;
+}
+
+/* * {
+    outline: 1px solid red;
+} */
+
+.commit{
+    display: flex;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+}
+
+.commit .img_2{
+    width: 115%;
+    background-color: cadetblue;
+}
+/* .commit .img-2{
+    width: 97%;
+    height: 70%;
+
+    border-right: 1px solid black;
+} */
+.commit .img-1 .tree{
+    width: 100%;
+    height: 100%;
+    padding-left: 370px;
+    padding-top: 39px;
+}
+.commit .img-2 .men{
+    width: 100%;
+    height: 100%;
+    padding-right: 370px;
+    padding-bottom: 39px;
+    margin-top: 218px;
+}
+.commit .commit_list .commit_list_{
+    /* margin: 49px; */
+    margin-top: 100px;
+    list-style-type: decimal;
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 82px;
+}
+.commit .commit_list .commit_list_ button{
+    width: 151px;
+    height: 38px;
+    border-radius: 25px;
+    margin-left: 41px;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    margin-bottom: 40px;
+}
+.commit .commit_list .commit_list_ h2{
+    padding: 35px;
+}
+.commit .commit_list .commit_list_ p{
+    padding: 35px;
+}
