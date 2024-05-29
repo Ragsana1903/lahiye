@@ -407,3 +407,130 @@ h4{
 .commit .commit_list .commit_list_ p{
     padding: 35px;
 }
+
+
+
+
+.footer_imgs {
+    display: flex;
+}
+
+.footer_imgs img {
+    width: 166.2px;
+    height: 190px;
+}
+
+.quick_links {
+    width: 260px;
+    height: 169px;
+    margin: 50px 90px;
+    padding: 30px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.links_icon_ready {
+    display: flex;
+}
+
+.quick_links h3 {
+    font-weight: 500;
+}
+
+.quick_links .first_list {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.quick_links .second_list {
+    display: flex;
+    flex-direction: column;
+    margin: -99px 140px;
+    font-size: 20px;
+}
+
+.quick_links a {
+    color: whitesmoke;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+}
+
+.footer_logo {
+    margin: 100px 142px;
+    background-size: contain;
+    width: 10px;
+}
+.footer_logo img{
+    width: 145px;
+}
+
+.ready {
+    margin: 49px 19px;
+    padding: 57px 52px;
+}
+
+.ready h3 {
+    color: whitesmoke;
+    font-size: x-large;
+    padding: 10px 15px;
+}
+
+.ready a {
+    color: whitesmoke;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.footer_icons {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    margin: -34px 625px;
+}
+
+.ri-instagram-line,
+.ri-linkedin-fill {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.footer_Copyright {
+    text-align: center;
+    margin-top: 38px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+}
+
+.privacy-policy {
+    display: flex;
+    margin: 6px 536px;
+    gap: 19px;
+    width: 391px;
+}
+
+.privacy-policy a {
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+}
+
+.main_about_title_right img {
+    width: 353px;
+}
